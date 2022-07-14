@@ -20,18 +20,18 @@ Publicado por Elsevier en 2021 propone un ‘Hybird deep feature fusion’ denom
 
 ## Capturas de pantalla
 A continuación, se presentan capturas de pantalla de nuestra interfaz mostrando los resultados de inferencias ante imágenes de testeo:
-![Deteccion 1](\img\captura1.png)
-![Deteccion 2](\img\captura2.png)
-![Deteccion 3](\img\captura3.png)
-![Deteccion 4](\img\captura4.png)
-![Deteccion 5](\img\captura5.png)
+![Deteccion 1](/img/captura1.png)
+![Deteccion 2](/img/captura2.png)
+![Deteccion 3](/img/captura3.png)
+![Deteccion 4](/img/captura4.png)
+![Deteccion 5](/img/captura5.png)
 
 
 ## Tecnologías/Frameworks utilizados
-####Entrenamiento
+#### Entrenamiento
 - Google Colab Pro con una tarjeta gráfica NVIDIA Tesla P100 con 16GB de VRAM. 
   
-####Despliegue
+#### Despliegue
 - Flask
 - Docker
 
@@ -39,7 +39,7 @@ A continuación, se presentan capturas de pantalla de nuestra interfaz mostrando
 El proyecto se basará en el entrenamiento de un modelo del Estado del Arte **YOLOV5s** utilizado en la tarea de **Detección de Objetos**, con el dataset anteriormente descrito, ya que este alcanza muy buenos resultados bajo un buen rendimiento. Posteriormente este modelo entrenado es sintetizado y desplegado a través de una interfaz web que permitirá a un usuario ingresar una imagen del frotis de Papanicolau, realizar las inferencias en un servidor, devolver los resultados y mostrarlos al usuario.
 
 ## Instalación
-####Entrenamiento
+#### Entrenamiento
 Todas las funcionalidades se incluyen directamente en los notebooks presentes en el repositorio:
 - En primer lugar se utiliza el dataset proveniente de Kaggle **"SIPaKMeD database"**, donde se incluyen 966 imágenes de 2048x1536 además de 4049 imágenes recortadas con las detecciones realizadas con las células segmentadas. [1]
 - Con el dataset se eliminan las carpetas innecesarias, además de las imágenes recortadas presentes en las carpetas "CROPPED". Las imágenes en formato ".bmp" y los datos en formato ".dat" deben estar presentes y distribuidas en las siguientes carpetas. **(dataset/im_Dyskeratotic, dataset/im_Koilocytotic, dataset/im_Metaplastic, dataset/im_Parabasal, dataset/im_Superficial-Intermediate)**
