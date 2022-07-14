@@ -52,10 +52,10 @@ Todas las funcionalidades se incluyen directamente en los notebooks presentes en
 - De ser necesario el despliegue en producción se tiene preparado el mismo vía Docker, con los requerimientos y las configuraciones de Docker correspondientes.
 
 ## Creditos
-Maria Jose Huiza Capo 25%
-Damaris Dayana Sarmiento Andrade 25%
-Carlos Salvador Mendieta Villanueva 25%
-Misael Mamani Quiroga 25%
+- Maria Jose Huiza Capo 25%
+- Damaris Dayana Sarmiento Andrade 25%
+- Carlos Salvador Mendieta Villanueva 25%
+- Misael Mamani Quiroga 25%
 
 ## Referencias
 
