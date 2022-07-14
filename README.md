@@ -60,7 +60,9 @@ Todas las funcionalidades se incluyen directamente en los notebooks presentes en
 ## Referencias
 
 [1] M. E. Plissiti, P. Dimitrakopoulos, G. Sfikas, C. Nikou, O. Krikoni, A. Charchanti, SIPAKMED: A new dataset for feature and image based classification of normal and pathological cervical cells in Pap smear images, IEEE International Conference on Image Processing (ICIP) 2018, Athens, Greece, 7-10 October 2018
+
 [2] Sompawong N, Mopan J, Pooprasert P, Himakhun W, Suwannarurk K, Ngamvirojcharoen J, Vachiramon T, Tantibundhit C. Automated Pap Smear Cervical Cancer Screening Using Deep Learning. Annu Int Conf IEEE Eng Med Biol Soc. 2019 Jul;2019:7044-7048. doi: 10.1109/EMBC.2019.8856369. PMID: 31947460.
+
 [3] Md Mamunur Rahaman, Chen Li, Yudong Yao, Frank Kulwa, Xiangchen Wu, Xiaoyan Li, and Qian Wang. 2021. DeepCervix: A deep learning-based framework for the classification of cervical cells using hybrid deep feature fusion techniques. Comput. Biol. Med. 136, C (Sep 2021). https://doi.org/10.1016/j.compbiomed.2021.104649
 ## Licencia
 
