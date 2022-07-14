@@ -1,0 +1,10 @@
+
+train: ../dataset/train/images
+val: ../dataset/valid/images
+test: ../dataset/test/images
+
+# Number of Classes
+nc: 5
+
+# Class Names
+names: ['Superficial-Intermediate', 'Parabasal', 'Metaplastic', 'Koilocytotic', 'Dyskeratotic']
